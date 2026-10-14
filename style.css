@@ -82,7 +82,7 @@ header, section {
 
 .cta-button:hover {
   text-decoration: underline;
-  scale: 1.05;
+  scale: 1.025;
 }
 
 section#my-work {
