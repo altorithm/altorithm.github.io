@@ -1,0 +1,91 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  background: #fffefe;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-container {
+  flex: 0 1 34em;
+}
+
+nav {
+  margin: 1em auto 3em auto;
+  width: min(1000px, 100%);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2em;
+}
+
+nav li:first-child {
+  margin-right: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+header, section {
+  margin: 2em auto;
+  width: min(75em, 100%);
+  background-color: #fffbf7;
+  padding: min(2em, 15%);
+  border-radius: 0.5em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #f5ca67;
+  padding: .25em 0.5em;
+  border-radius: .5em;
+  font-weight: 400;
+}
+
+.cta-button:hover {
+  text-decoration: underline;
+  scale: 1.05;
+}
+
+section#my-work {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
